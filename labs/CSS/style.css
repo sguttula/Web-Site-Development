@@ -1,0 +1,23 @@
+body {
+	background-image: url(https://pbs.twimg.com/profile_images/644236965374660608/i6kVNTIc.jpg);
+	background-repeat: repeat;
+	Background attachment:fixed;
+	
+}
+h1 {
+		color: #FFDF00;
+		text-transform: uppercase;
+}
+.high	{ background-color:#DDDDDD;
+		  margin-top: 20px;
+		  margin-right: 20%;
+		  margin-bottom: 20px;
+		  margin-left: 20%;
+		  padding: 3%;
+		  opacity: 0.75;
+		   
+		  } 
+	p{
+		color: brown;
+		 
+	}

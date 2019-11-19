@@ -1,0 +1,72 @@
+body{
+	background-color:#999966;
+	
+}
+
+h1{
+background-color:#0080ff;
+border-radius:190px;
+font-size:385%;
+color:#FF99CC;
+text-align:center;
+margin: 1%
+}
+
+h2{
+background-color:#bf4040;
+border-radius:40px;
+font-size:110%;
+color:#000000;
+text-align:center;
+margin: 1%
+}
+
+h3{
+background-color:#ffff00;
+border-radius:70px;
+font-size:385%;
+color:#FF99CC;
+text-align:center;
+padding: 2%;
+margin: 1%
+}
+
+p{
+	padding:10px;
+}
+
+img {
+top: 505px;
+border-width: 7px;
+width:90%;
+margin: 1%;
+padding: 1%;
+
+}
+audio {
+width:50%;
+margin: 1%;
+border-style: solid;
+border-width: 3px;
+border-color: #bf4040;
+border-radius: 90px;
+padding: 2%;
+}
+
+.visible{
+
+}
+
+.invisible{
+	width:90%;
+	display:none;
+	background-color:#bf00ff;
+}
+
+#paragraph, #Chekov, #Uhura, #Sulu,  {
+	padding: 25px,20px,25px,20px;
+	margin: 30px;
+	background-color:#bf4040;
+    border-style: solid;
+	max-width: 85%;
+}
