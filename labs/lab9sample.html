@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Really Important Form</title>
+
+		<style>
+			body {
+				background-color: #226666;
+			}
+			form {
+				width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+				background-color: #BBBBBB;
+			}
+			header {
+				background-color: #BBBBBB;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+				width: 70%;
+			}
+			label {
+
+				font-size: 120%;
+				font-weight: 800;
+			}
+			
+			
+		</style>
+	</head>
+
+	<body>
+
+		<header>
+			<h2>Send some information</h2>
+		</header>
+		<section>
+
+			<form name = "myForm" id = "myForm" method="post" action = "http://webdevfoundations.net/scripts/formdemo.asp">
+				<fieldset>
+					<legend>
+						Send Us All Your Information
+					</legend>
+					<table>
+						<tr>
+							<td><label for "custName">Name:</label>
+							<input type="text"  name="custName"  id="custName" />
+							</td>
+							<td><label for "custAge">Age:</label>
+							<input type="number"  name="custAge"  id="custAge" min = "0" max = "110" />
+							<br />
+							</td>
+							<td><label for "custEmail">Email:</label>
+							<input type="email" name="custEmail"  id="custEmail" placeholder="me@example.com" />
+							</td>
+							<td><label for "pass">Password</label>
+							<input type="password" name="pass" id="pass"/>
+							</td>
+						</tr>
+						<tr>
+							<td colspan = "2"><label for "dairy">Which do you like?</label>
+							<input type="checkbox" name="dairy" value="cheese">
+							Cheese
+							<input type="checkbox" name="dairy" value="yogurt">
+							Yogurt
+							<input type="checkbox" name="dairy" value="butter">
+							Butter </td>
+							<td colspan = "2"><label for "level">Level:</label>
+							<input type="radio" name="level" value="undergrad">
+							Undergraduate
+							<input type="radio" name="level" value="grad">
+							Graduate Student
+							<input type="radio" name="level" value="fac">
+							Faculty </td>
+						</tr>
+					</table>
+				</fieldset>
+				<fieldset>
+					<legend>
+						Tell Us What you Think
+					</legend>
+			<label for "gma">Choose:</label>
+							<select name = "gma" id = "gma">
+								<option value = "ginger">Ginger</option>
+								<option value = "maryanne" >Mary Anne</option>
+							</select>
+
+				</fieldset>
+				<input type = "hidden" name = "custNum" value = "12345" />
+				<input type="submit" />
+				<input type="reset" />
+			</form>
+		</section>
+	</body>
+</html>

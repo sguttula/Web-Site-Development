@@ -1,0 +1,16 @@
+1. 	The stylesheet link using the external stylesheet is <a href="../style/style.css"></a>
+
+2. 	The color of the paragraphs will be #0000FF because an html document first renders in-line css,
+	then internal css, and then external css. It's all in order so that's why.
+
+
+3.	The title element goes inside the head element because it defines the title in the browser
+	toolbar and displays a title for the page in search-engine results. You can not have more than
+	one title element and if you omit the title element the document will not render in html.	
+
+4.	It is more organized and you can link as many other html documents to the external stylesheets.
+
+5. 	It's where the information gets sent to.
+
+6.	No script works as it defines an alternative information for users with disabled scripts or
+	that their browser does not support it.

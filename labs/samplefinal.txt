@@ -1,0 +1,53 @@
+Sample Final Exam
+
+Section I.
+
+1.
+<!DOCTYPE html>
+<html>
+  <body>
+	<ol start "1">
+		<li>
+			Fix Car
+		</li>
+		<li>
+			Paint House
+		</li>
+		<li>
+			Rake Lawn
+		</li>
+		<li>
+			Apply for Scholarship
+		</li>
+	</ol>
+  </body>
+<html>
+
+2. 	The HTML closing tag must go after the body element
+	There is no div for the "body" class
+	You need a fieldset element before and after the legend attribute
+	the tr attribute needs to have a closed element
+	
+3. 	You need a colon after the width property
+	The quantity for the width attribute has to be in "px", not in percentages.
+	The quantity doesn't have to be in quotations.
+	
+4.	Because if it's set to CSS, then you can link it to multipe documents rather 
+	if it is set to HTML, only that one document will be rendered in the font size 
+	and background.
+
+5. 	Internal stylesheets are included in the head element because it relates to that
+	specific document and it defines the document to render in the specific code
+	attributes you make it. Also it is restricted to one html document.
+
+6.	<a href="../info/contact/index.html">Index</a>
+7.
+8.
+9. pseudo-element
+10.
+11.
+12.
+13.
+14.
+
+  

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Sports Form</title>
+		<link rel="stylesheet" href="http://cs1.calstatela.edu:8280/~cs120s11/labs/css/lab9.css">
+	</head>
+	<body>
+		<header>
+			<h1> Sports Form </h1>
+		</header>
+		<section>
+			<div id="sports">
+			<form name= "MyForm" id= "MyForm" method= "post" action= "http://webdevfoundations.net/scripts/formdemo.asp">
+			
+			<fieldset>
+				<legend>
+					Personal Information
+				</legend>
+				<table>
+					<tr>
+							<td><label for "custName">Name:</label>
+							<input type = "text" name="Name" id= "Name" /><b>
+							</td>
+							<td><label for "Age">Age:</label>
+							<input type = "number" name = "Age" id= "Age" /><b>
+							</td>
+							<td><label for "custHeight">Height:</label>
+							<input type = "text" name="Height" id= "Height" placeholder= "inches" /><b>
+							</td>
+							<td><label for "custWeight">Weight:</label>
+							<input type = "number" name="Weight" id= "Weight" placeholder="pounds" /><b>
+							</td>
+							
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>
+					Contact Information
+				</legend>	
+					<table>
+						<tr>
+							<td><label for "custEmail">Email:</label>
+							<input type="email" name="Email"  id="Email" placeholder="me@example.com" />
+							</td>
+							<td><label for "pass">Password:</label>
+							<input type="password" name="pass" id="pass"/>
+							</td>
+							<td><label for "custaddress">Address:</label>
+							<input type="address" name="Address" id="Address" placeholder="12345 ABC st. Los Angeles, CA 67890" />
+							</td>
+ 						</tr>
+					</table>
+			</fieldset>
+			<fieldset>
+				<legend>
+					Give us your opinion
+				</legend>
+				<table>
+					<tr>
+							<td colspan="3"><label for "sports">Which interests you more?</label>
+							<input type = "radio" name = "sports" value = "Basketball" />
+							Basketball
+							<input type = "radio" name = "sport" value = "Football" />
+							Football
+							<input type = "radio" name = "sports" value = "Soccer" />
+							Soccer
+							<input type = "radio" name = "sports" value = "Baseball" />
+							Baseball 
+							</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+							<p>
+								<td colspan = "3"><label for "level">Level:</label>
+								<input type="checkbox" name="level" value="beginner">
+								Beginner
+								<input type="checkbox" name="level" value="intermediate">
+								Intermediate 
+								<input type="checkbox" name="level" value="professional">
+								Professional </td>
+							</p>
+					</tr>
+				</table>
+					<p>Do you like sports?</p>
+								<select name="Sports lover"> <br />
+									<option value="yes" selected="selected"> Yes </option> <br />
+									<option value="maybe">Maybe.</option> <br />
+									<option value="no">No.</option> <br />
+								</select>
+			<fieldset>
+				<legend>
+					Tell us more
+				</legend>
+				<table>
+					<tr>
+							<td colspan="2">
+								<p>Type some of your favorite sport athletes:</p>
+								<textarea rows="5" cols="100" name="athletes" id="athletes"> </textarea>
+							</td>			
+ 					</tr>
+				</table>
+			</fieldset>
+					<tr>
+							<td>		
+								<input type="submit" />
+							</td>
+							<td>
+								<input type="reset" />
+							<td>
+					</tr>
+			</fieldset>
+				
+			
+					</p>
+			</div>
+			</form>
+	</body>
+</html>
